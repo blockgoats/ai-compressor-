@@ -14,6 +14,18 @@
 
 > **Scope:** Production uses **tokenizer + `ramanujan_compression`** on text prompts. Full **embedding-level RCP** and **soft prompts** from the paper are documented as a [funding-contingent roadmap](docs/roadmap.md); see [implementation notes](docs/WHITEPAPER_IMPLEMENTATION_NOTES.md).
 
+## Screenshots (frontend)
+
+The dashboard is a **Vite + React** SPA. Images below are from a **production build** (`npm run build` + `vite preview`); charts and tables may show **demo** data until the API is connected.
+
+| Dashboard | Playground |
+|-----------|------------|
+| ![Dashboard: token savings, charts, recent activity](docs/images/dashboard.png) | ![Playground: prompt compression UI](docs/images/playground.png) |
+
+| Analytics | API reference page |
+|-----------|-------------------|
+| ![Analytics: usage and history](docs/images/analytics.png) | ![API documentation page in the app](docs/images/api-docs.png) |
+
 ## Repository layout
 
 ```
