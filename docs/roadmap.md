@@ -313,6 +313,7 @@ Use this as a **go/no-go** list for “we implemented the whitepaper core.”
 | [`README.md`](../README.md) | Repository overview |
 | [`docs/README.md`](README.md) | Documentation index (this folder) |
 | [`ARCHITECTURE.md`](ARCHITECTURE.md) | Monorepo layout (backend / frontend / docs) |
+| [`ONBOARDING.md`](ONBOARDING.md) | New contributor setup and first PR |
 | [`whitepaper.md`](whitepaper.md) | LaTeX source — definitions, algorithms, experiments |
 | [`WHITEPAPER_IMPLEMENTATION_NOTES.md`](WHITEPAPER_IMPLEMENTATION_NOTES.md) | Paper vs deployed API; suggested LaTeX clarifications |
 | [`backend/PROJECT_SUMMARY.md`](../backend/PROJECT_SUMMARY.md) | Current SDK / product scope |
