@@ -2,6 +2,8 @@
 
 Thank you for contributing to Ramj.
 
+**New here?** Start with **[docs/ONBOARDING.md](docs/ONBOARDING.md)** (environment setup, running backend + frontend, first PR).
+
 ## Development setup
 
 1. Fork the repository and clone your fork.

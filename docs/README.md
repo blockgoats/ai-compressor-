@@ -4,6 +4,7 @@
 
 | Document | Description |
 |----------|-------------|
+| [**Onboarding (contributors)**](ONBOARDING.md) | First-time setup, full stack, where to edit code, PR checklist |
 | [Root README](../README.md) | Clone, layout, quick start for backend + frontend |
 | [Architecture](ARCHITECTURE.md) | How `backend/`, `frontend/`, and `docs/` fit together |
 | [Contributing](../CONTRIBUTING.md) | PR workflow, lint commands |

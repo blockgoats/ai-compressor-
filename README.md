@@ -63,6 +63,7 @@ Do not commit real `.env` files. Use a strong `SECRET_KEY` and real DB credentia
 
 | | |
 |--|--|
+| **Contributor onboarding** | [docs/ONBOARDING.md](docs/ONBOARDING.md) |
 | **Index** | [docs/README.md](docs/README.md) |
 | **Architecture** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | **Contributing** | [CONTRIBUTING.md](CONTRIBUTING.md) |
