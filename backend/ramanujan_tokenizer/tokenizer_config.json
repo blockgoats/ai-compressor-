@@ -1,0 +1,15 @@
+{
+  "base_tokenizer_name": "bert-base-uncased",
+  "enable_compression": true,
+  "compression_strategy": "hybrid",
+  "compression_ratio": 0.5,
+  "modular_base": 7,
+  "sparse_threshold": 0.1,
+  "context_length": 512,
+  "gpu_acceleration": false,
+  "pro_features": false,
+  "max_length": 512,
+  "padding": "max_length",
+  "truncation": true,
+  "return_tensors": "pt"
+}

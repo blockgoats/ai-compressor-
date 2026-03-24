@@ -1,0 +1,50 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      DATABASE_URL: postgresql+asyncpg://ram:ram@postgres:5432/ramanujan
+      SYNC_DATABASE_URL: postgresql://ram:ram@postgres:5432/ramanujan
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+      AUTH_DISABLE: "true"
+      DEBUG: "false"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_started
+
+  celery:
+    build: .
+    command: celery -A app.workers.celery_app.celery_app worker -l info
+    environment:
+      DATABASE_URL: postgresql+asyncpg://ram:ram@postgres:5432/ramanujan
+      SYNC_DATABASE_URL: postgresql://ram:ram@postgres:5432/ramanujan
+      CELERY_BROKER_URL: redis://redis:6379/1
+      CELERY_RESULT_BACKEND: redis://redis:6379/2
+      SECRET_KEY: ${SECRET_KEY:-dev-secret-change-me}
+    depends_on:
+      - redis
+      - postgres
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ram
+      POSTGRES_PASSWORD: ram
+      POSTGRES_DB: ramanujan
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ram -d ramanujan"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  redis:
+    image: redis:7-alpine
+    # No host port: avoids clashing with local Redis; only reachable on Docker network
