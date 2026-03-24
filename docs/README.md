@@ -8,6 +8,9 @@
 | [Root README](../README.md) | Clone, layout, quick start for backend + frontend |
 | [Architecture](ARCHITECTURE.md) | How `backend/`, `frontend/`, and `docs/` fit together |
 | [Contributing](../CONTRIBUTING.md) | PR workflow, lint commands |
+| [Code of Conduct](../CODE_OF_CONDUCT.md) | Community expectations |
+| [Governance](../GOVERNANCE.md) | How decisions and releases work |
+| [Changelog](../CHANGELOG.md) | Notable changes per release |
 | [Security](../SECURITY.md) | Reporting vulnerabilities |
 
 ## Research & product scope

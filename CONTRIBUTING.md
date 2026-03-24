@@ -4,6 +4,12 @@ Thank you for contributing to Ramj.
 
 **New here?** Start with **[docs/ONBOARDING.md](docs/ONBOARDING.md)** (environment setup, running backend + frontend, first PR).
 
+## Community standards
+
+- **[Code of Conduct](CODE_OF_CONDUCT.md)** — applies to issues, PRs, and discussions.
+- **Issues** — use the templates under [`.github/ISSUE_TEMPLATE/`](.github/ISSUE_TEMPLATE/) when possible.
+- **Releases** — maintainers: see [RELEASING.md](RELEASING.md); user-facing changes go in [CHANGELOG.md](CHANGELOG.md).
+
 ## Development setup
 
 1. Fork the repository and clone your fork.

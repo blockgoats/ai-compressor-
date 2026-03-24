@@ -1,0 +1,8 @@
+# Copy to CODEOWNERS (same directory) and replace placeholders.
+# Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+#
+# Example (uncomment and edit):
+# *                    @your-github-username
+# /backend/            @your-org/backend-team
+# /frontend/           @your-org/frontend-team
+# /docs/               @your-github-username

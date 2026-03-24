@@ -2,6 +2,11 @@
 
 **Ramanujan-inspired prompt compression** — Python SDK, FastAPI service, and React dashboard for token-efficient LLM prompts.
 
+<!-- After publishing: replace YOUR_ORG and YOUR_REPO in the CI badge URL -->
+[![CI](https://github.com/YOUR_ORG/YOUR_REPO/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/YOUR_ORG/YOUR_REPO/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
 | | |
 |--|--|
 | **License** | [MIT](LICENSE) |
@@ -67,6 +72,8 @@ Do not commit real `.env` files. Use a strong `SECRET_KEY` and real DB credentia
 | **Index** | [docs/README.md](docs/README.md) |
 | **Architecture** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
 | **Contributing** | [CONTRIBUTING.md](CONTRIBUTING.md) |
+| **Code of Conduct** | [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md) |
+| **Changelog** | [CHANGELOG.md](CHANGELOG.md) |
 | **Security** | [SECURITY.md](SECURITY.md) |
 
 ## Publishing this repository

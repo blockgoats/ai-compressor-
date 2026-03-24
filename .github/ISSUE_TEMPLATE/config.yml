@@ -1,0 +1,3 @@
+# Optional: add contact_links with your repo's Security advisory URL once published.
+# https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/configuring-issue-templates-for-your-repository
+blank_issues_enabled: true

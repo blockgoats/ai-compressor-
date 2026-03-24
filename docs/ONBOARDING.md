@@ -165,6 +165,10 @@ Open a **GitHub issue** for bugs or design questions; large **embedding-level RC
 
 ---
 
-## 9. License
+## 9. Community standards
+
+Participation is governed by the [Code of Conduct](../CODE_OF_CONDUCT.md). For maintainer process and releases, see [Governance](../GOVERNANCE.md) and [RELEASING.md](../RELEASING.md).
+
+## 10. License
 
 Contributions are under the [MIT License](../LICENSE) (see [CONTRIBUTING.md](../CONTRIBUTING.md)).
